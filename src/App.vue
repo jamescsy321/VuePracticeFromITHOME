@@ -7,8 +7,11 @@
     <!-- <Calculator></Calculator> -->
     <!-- <ComputedDemo></ComputedDemo> -->
     <!-- <LifeCycle></LifeCycle> -->
-    <ToDoList></ToDoList>
+    <!-- <ToDoList></ToDoList> -->
     <!-- <NewToDoList></NewToDoList> -->
+
+    <DisplayNumbers />
+    <AddNumbers />
   </div>
 </template>
 
@@ -20,6 +23,8 @@ import ComputedDemo from './components/computedDemo'
 import LifeCycle from './components/lifecycleDemo'
 import ToDoList from './components/todoList'
 import NewToDoList from './components/newTodoList'
+import AddNumbers from './components/AddNumbers.vue'
+import DisplayNumbers from './components/DisplayNumbers.vue'
 
 export default {
   name: 'App',
@@ -30,7 +35,9 @@ export default {
     ComputedDemo,
     LifeCycle,
     ToDoList,
-    NewToDoList
+    NewToDoList,
+    AddNumbers,
+    DisplayNumbers
   }
   
 
